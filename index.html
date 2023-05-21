@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body
+  class="bg-very_dark_blue md:flex md:justify-center md:items-center flex-col md:h-screen w-screen flex justify-center items-center">
+  <main
+    class="flex justify-center items-center flex-col my-20 mx-5 text-white_main overflow-hidden rounded-md bg-dark_desaturated_blue md:flex-row-reverse md:w-3/5 md:items-stretch md:m-0 md:min-w-[820px] max-w-[520px]">
+    <section class="md:w-1/2">
+      <div
+        class="relative after:absolute after:h-full after:w-full after:top-0 after:bottom-0 after:right-0 after:left-0 after:bg-soft_violet after:opacity-50 md:h-full">
+        <img src="/images/image-header-mobile.jpg" alt="" class="min-w-0 min-h-0 md:h-full object-cover">
+      </div>
+    </section>
+    <div class=" md:p-5 md:w-1/2 md:px-16 p-10 md:py-12">
+      <section class="flex flex-col items-center">
+        <h1 class="text-2xl text-center font-semibold md:text-left">Get <span class="text-soft_violet">insights</span>
+          that help your business grow.</h1>
+        <p class=" text-center text-slightly_transparent_white_p py-2 md:text-left">Discover the benefits of data
+          analytics and
+          make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      </section>
+      <section class="flex flex-col items-center md:flex-row md:items-center md:justify-between">
+        <div>
+          <p class="font-bold text-lg pt-2 text-white_main text-center md:text-left">10k+</p>
+          <p class="uppercase text-slate-500 text-slightly_transparent_white">companies</p>
+        </div>
+        <div>
+          <p class="font-bold text-lg pt-2 text-white_main text-center md:text-left">314</p>
+          <p class="uppercase text-slate-500 text-slightly_transparent_white">templates</p>
+        </div>
+        <div class="">
+          <p class="font-bold text-lg pt-2 text-white_main text-center md:text-left">12m+</p>
+          <p class="uppercase text-slate-500 text-slightly_transparent_white">queries</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      <p class="text-white">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+          Mentor</a>.
+        Coded by <a href="https://www.linkedin.com/in/niklaus-mikealson/">Niklaus M</a>.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
